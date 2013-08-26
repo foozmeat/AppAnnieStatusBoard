@@ -4,7 +4,7 @@ This is a script that generates a sales graph for Panic's Status Board using the
 
 ### Installation
 
-1. Open `app_annie_status_board.rb` and adjust the values inside the configuration block to match you're respective install. 
+1. Copy project.yml.sample and edit the values inside to match you're respective install.
 2. Open `app_annie_status_board.sh` and update its path to the `app_annie_status_board.rb` script to match where you've installed it
 3. Open `de.rheinfabrik.appanniestatusboard.plist` and update its `ProgramArguments` value to match where you are storing the salesboard.sh file you just updated in step 3.
 4. Copy de.rheinfabrik.appanniestatusboard.plist to `~/Library/LaunchAgents` 
