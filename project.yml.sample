@@ -1,0 +1,20 @@
+# For more information about the parameters, see https://appannie.zendesk.com/entries/23215097-2-App-Sales
+
+username: "" # App Annie username
+password: "" # App Annie password
+
+account_id: "" # App Annie account connection id. You can get all account connection info by calling /v1/accounts
+
+graph_title: "App Name"
+graph_type: "line"
+hide_totals: false
+days_to_show: 14
+date_format: "%b %-d" # Date format for x-axis. Default format is "Apr 20"
+
+outputFile: "/Users/james/Dropbox/Projects/sales.json"
+
+products:
+- :title: "App Name"
+  :app_id: 0
+  :color: green
+  
